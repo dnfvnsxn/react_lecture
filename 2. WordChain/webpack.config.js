@@ -22,7 +22,7 @@ module.exports = {
                 options: {
                     //plugin의 모음이 preset
                     presets: [["@babel/preset-env", { targets: { browsers: ["> 5% in KR"] }, debug: true }], "@babel/preset-react"], // @babel/preset-env가 브라우져 지원을 설정하는 것인데 세부 설정하는 방법 //browserslist
-                    plugins: ["@babel/plugin-proposal-class-properties"]
+                    plugins: ["@babel/plugin-proposal-class-properties", "react-hot-loader/babel"]
                 }
             }
         ]
