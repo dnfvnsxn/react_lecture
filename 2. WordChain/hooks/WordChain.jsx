@@ -44,7 +44,7 @@ class WordChain extends Component {
                 <div>{this.state.word}</div>
                 <form onSubmit={this.onSubmit}>
                     <input ref={this.onRefInput} value={this.state.value} onChange={this.onChange} />
-                    <button>입력!!!</button>
+                    <button>입력!!</button>
                 </form>
                 <div>{this.state.result}</div>
             </React.Fragment>
