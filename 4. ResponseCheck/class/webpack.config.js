@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-    name: "number-baseball-setting",
+    name: "response-check-setting",
     mode: "development",
     devtool: "eval",
     resolve: {
