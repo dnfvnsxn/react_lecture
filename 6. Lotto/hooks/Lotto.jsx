@@ -1,3 +1,17 @@
+// componentDidMount
+// useEffect(()=>{},[])
+
+// componentDidUpdate
+// const mounted = useRef(false);
+// useEffect(()=>{
+//    if(!mounted.current){
+//        mounted.current = true{
+//    }else{
+//            ajax
+//        }
+//    }
+// },[바뀌는값])
+
 import React, {
     useState,
     useRef,
