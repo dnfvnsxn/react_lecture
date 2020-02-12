@@ -4,6 +4,7 @@ import { CLICK_CELL } from "./TicTacToe";
 const Td = memo(({ rowIndex, cellIndex, dispatch, cellData }) => {
   console.log("td rendered");
 
+  // 어떤 props가 바뀌는지 확인하는 방법
   const ref = useRef([]);
   useEffect(() => {
     console.log(
